@@ -10,8 +10,7 @@ void main() {
         ),
         body: Center(
           child: Image(
-            image: NetworkImage(
-                'https://media.giphy.com/media/h0MTqLyvgG0Ss/source.gif'),
+            image: AssetImage('images/diamond.png'),
           ),
         ),
         backgroundColor: Colors.blueGrey,
